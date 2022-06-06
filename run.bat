@@ -1,2 +1,0 @@
-py find.py
-pause
