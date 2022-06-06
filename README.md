@@ -18,6 +18,9 @@ https://dev.twitch.tv/docs/api
 "client_id" - client ID for your application.
 "client_secret" - client secret for your application.
 
+`Settings`
+"only_find_streamers_playing" - only find streamers play the game specified, must be exactly how twitch names the category. ("Game Name")
+
 "Open_In_Browser" - Opens livestreams if they are live. (true/false)
 
 "Find" - Finds certain categories from ``streamers.json`` (["English", "Non-English"])
