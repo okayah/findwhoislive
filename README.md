@@ -11,21 +11,25 @@ After unzipping you want to open ``setup.bat``, this will download what you need
 Configure ``config.json`` and ``streamers.json`` to your liking then use ``run.bat``.
 
 # config.json
-"simple_method" - Bypasses the need for Authentication, shows if the streamer is live or not. Turning this off will use the twitch api and will need client_id and client_secret to function. (true/false)
+"simple_method" - Bypasses the need for Authentication, shows if the streamer is live or not. (true/false)
 
-`Authentication`
-https://dev.twitch.tv/docs/api
+"api_method" - Requires client_id & client_secret. https://dev.twitch.tv/docs/api (true/false)
+
+`Authentication` https://dev.twitch.tv/docs/api
+
 "client_id" - client ID for your application.
+
 "client_secret" - client secret for your application.
 
 `Settings`
-"only_find_streamers_playing" - only find streamers play the game specified, must be exactly how twitch names the category. ("Game Name")
 
 "Open_In_Browser" - Opens livestreams if they are live. (true/false)
 
+"Load_Streamers_From" - decides where streamers are loaded from. ("github/file")
+
 "Find" - Finds certain categories from ``streamers.json`` (["English", "Non-English"])
 
-"Load_Streamers_From" - decides where streamers are loaded from. `Github w/ (30+) PC Streamers` or `File w/ your own streamers.` ("github/file")
+"Find_By_Game" - only find streamers play the game specified, must be exactly how twitch names the category. ("Game Name")
 
 # streamers.json
 To make your own categories, you may need slight json file syntax knowledge.
