@@ -11,6 +11,13 @@ After unzipping you want to open ``setup.bat``, this will download what you need
 Configure ``config.json`` and ``streamers.json`` to your liking then use ``run.bat``.
 
 # config.json
+"simple_method" - Bypasses the need for Authentication, shows if the streamer is live or not. Turning this off will use the twitch api and will need client_id and client_secret to function. (true/false)
+
+`Authentication`
+https://dev.twitch.tv/docs/api
+"client_id" - client ID for your application.
+"client_secret" - client secret for your application.
+
 "Open_In_Browser" - Opens livestreams if they are live. (true/false)
 
 "Find" - Finds certain categories from ``streamers.json`` (["English", "Non-English"])
