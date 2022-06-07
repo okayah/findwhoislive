@@ -15,7 +15,7 @@ Configure ``config.json`` and ``streamers.json`` to your liking then use ``run.b
 
 "api_method" - Requires client_id & client_secret. https://dev.twitch.tv/docs/api (true/false)
 
-`Authentication` https://dev.twitch.tv/docs/api
+`Authentication`
 
 "client_id" - client ID for your application.
 
@@ -24,10 +24,6 @@ Configure ``config.json`` and ``streamers.json`` to your liking then use ``run.b
 `Settings`
 
 "Open_In_Browser" - Opens livestreams if they are live. (true/false)
-
-"Load_Streamers_From" - decides where streamers are loaded from. ("github/file")
-
-"Find" - Finds certain categories from ``streamers.json`` (["English", "Non-English"])
 
 "Find_By_Game" - only find streamers play the game specified, must be exactly how twitch names the category. ("Game Name")
 
